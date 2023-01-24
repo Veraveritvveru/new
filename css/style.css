@@ -1,0 +1,165 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+header,
+footer,
+nav,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   background: #EDF2EC;
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+   color: inherit;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+}
+p {
+   width: auto;
+   overflow-wrap: break-word;
+}
+.container {
+   max-width: 1240px;
+   padding: 10 20px;
+   margin: 0 auto;
+}
+
+/*--------------------------HEADER--------------------*/
+
+.header {
+   width: auto;
+}
+
+.header-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header_logo {
+   font-family: "Inika", sans-serif;
+   font-size: 16px;
+   line-height: 21px;
+   color: #010201;
+}
+
+.menu {
+   margin-right: 109px;
+   padding: 21px 0;
+}
+
+.menu_list {
+   display: flex;
+}
+
+.menu_item {
+   padding: 21px 23px;
+   font-family: "Inika", sans-serif;
+   font-size: 16px;
+   line-height: 50px;
+   color: #010201;
+}
+
+.menu_link:hover {
+   color: #E06733;
+}
+
+/*---------------------Первый блок---------------------*/
+
+.welcome {
+   border: 0;
+   padding: 62px 0 94px;
+}
+
+.welcome_inner {
+display: flex;
+} 
+
+.welcome_right_title {
+   width: 549px;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 50px;
+   padding-bottom: 42px;
+   color: #717171;
+}
+
+.welcome_right_text {
+   width: 547px;
+   padding-bottom: 48px;
+   line-height: 35px;
+   color: #636060;
+}
+
+.title_plants {
+   color: #499A18;
+}
+.welcome_learn_more {
+   padding: 14px 27px;
+   border: 2px solid #E06733;
+   border-radius: 10px;
+   text-transform: uppercase;
+}
+
+.welcome_learn_more:hover {
+   color: #FFFFFF;
+   background: #E06733;
+   border: 2px solid #E06733;
+   border-radius: 10px;
+   transition: all 0.4s;
+}
