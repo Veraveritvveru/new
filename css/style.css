@@ -31,6 +31,7 @@ body {
    font-size: 20px;
    font-weight: 400;
    line-height: 1;
+    scroll-behavior: smooth;
 }
 input,
 button,
@@ -310,4 +311,145 @@ border-radius: 5px;
    background: #D9D9D9;
 }
 
+/*---------PRICES-------------*/
 
+.prices {
+   background: #FFFFFF;
+}
+
+.prices_inner {
+   display: flex;
+   justify-content: space-between;
+
+   padding-top: 40px;
+}
+
+.prices_left_title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+}
+
+.prices__accordion {
+   width: 332px;
+   padding: 34px 41px;
+   margin-top: 60px;
+   margin-bottom: 129px;
+   border: 1px solid #E3E1D5;
+   border-radius: 20px;
+}
+
+.accordion__header {
+   font-weight: 700;
+
+   background: #EDF2EC;
+   border-radius: 20px;
+   padding: 16px 110px 16px 40px;
+}
+
+.accordion__item:not(:last-child){
+   margin-bottom: 32px;
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__body {
+   display: none;
+}
+
+.prices_right {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.prices_right_title {
+   width: 452px;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+
+text-align: right;
+}
+
+.span_gardeners {
+   color: #499A18;
+}
+
+a.contact_us {
+   margin-top: 38px;
+   margin-bottom: 39px;
+   padding: 12px 34px 12px 30px;
+
+   font-family: 'Inika';
+   font-weight: 700;
+   line-height: 26px;
+   color: #E06733;
+
+   border: 1px solid #E06733;
+   border-radius: 5px;
+}
+
+a.contact_us:hover {
+   color: #FFFFFF;
+   background: #E06733;
+   border: 1px solid #E06733;
+   border-radius: 5px;
+}
+
+/*-------------CONTACTS--------------*/
+.contacts__inner {
+   display: flex;
+   justify-content: space-between;
+}
+.contacts__title {
+   padding-top: 60px;
+   font-family: 'Inika';
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+   
+   color: #499A18;
+   text-align: center;
+}
+
+.contacts__accordion__header{
+   font-weight: 400;
+   line-height: 40px;
+   letter-spacing: 0.05em;
+
+   color: #717171;
+
+   background: #D6E7D2;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 0px;
+
+   margin-top: 37px;
+   padding: 5px 389px 5px 20px;
+}
+
+/*--------------FOOTER---------------*/
+.footer {
+   background-color: #FFFFFF;
+}
+
+.footer__inner {
+   display: flex;
+   justify-content: space-between;
+
+   padding: 40px 0;
+
+   line-height: 50px;
+}
+
+.copyright {
+   display: flex;
+   justify-content: space-between;
+
+   width: 169px;
+}
+
+.social {
+   display: flex;
+   justify-content: space-between;
+   
+   width: 188px;
+}
